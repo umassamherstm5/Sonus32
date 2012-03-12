@@ -19,3 +19,9 @@
 // Card Select output is pin 7 = RPB3
 #define SDCS    _RB3
 #define SDCS_TRIS _TRISB3
+
+// NOTE SCK2, pin 26, is used for SD CLK
+
+// Output PWM pins
+#define CHAN1   _RA0
+#define CHAN2   _RA1
